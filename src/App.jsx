@@ -21,7 +21,7 @@ function App() {
 
   <div className='App'>
     
-    <h1 className="title" > WCB User Database</h1><br></br><button className="subtitle" onClick={onClick}>Fetch 10 Users</button><br></br>
+    <h1 className="title" > WCP User Database</h1><br></br><button className="subtitle" onClick={onClick}>Fetch 10 Users</button><br></br>
     {user?.map((user) => (
       <div key={user.id} className="card">
         <div className="inner"> 
