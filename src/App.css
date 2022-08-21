@@ -1,0 +1,109 @@
+
+
+.title {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding: 15px;
+  
+  border-radius: 15px;
+  width:300px;
+  display: block;
+  margin: auto;
+
+
+}
+
+.subtitle {
+width:100px;
+height: 70px;
+display: block;
+margin: auto;
+border: 1px solid black;
+background-color: rgba(0, 0, 0, 0);
+color: black;
+padding:5px;
+border-radius: 15px;
+}
+
+.subtitle:hover {
+  color:white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.img{
+  width: 150px;
+  border-radius: 100px;
+  border: 1px solid black;
+  
+}
+
+.card{
+  border: 1px solid black;
+
+
+  display:inline-block;
+  height: 300px;
+  width: 350px;
+ position:relative;
+}
+
+.card .inner {
+  position: absolute;
+  width: 100%;
+  height:100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+  
+}
+ 
+
+
+.inner:hover{
+  transform: rotateY(180deg);
+  transition:transform 0.5s;
+}
+
+.card .front{
+  position:absolute;
+  width: 100%;
+  height:100%;
+  position:absolute;
+  backface-visibility: hidden;
+text-align: center;
+top:5%;
+
+
+ 
+  
+}
+
+.card .back {
+  position:absolute;
+  width: 100%;
+  height:100%;
+  position:absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  text-align: center;
+  top:18%;
+  
+}
+.lineup{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address{
+  border: 1px solid black;
+background-color: rgba(0, 0, 0, 0);
+color: black;
+
+margin-left: 35px;
+margin-right: 35px;
+
+border-radius: 15px;
+}
